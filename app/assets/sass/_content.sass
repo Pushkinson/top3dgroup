@@ -1,0 +1,122 @@
+.content
+    margin: 100px auto 0
+    font-family: 'SFPro-Regular', 'Arial'
+    line-height: 32px
+    font-style: normal
+    padding-bottom: 70px
+
+    &__wrapper
+        max-width: 1234px
+        margin: 0 auto
+
+    &__logo
+        margin-bottom: 50px
+
+    &__text
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        margin-bottom: 70px
+
+        &_left
+            flex-basis: 38%
+
+            &_head
+                font-size: 25px
+                margin-bottom: 40px
+                h1
+                    margin-block-start: 0
+                    margin-block-end: 0
+
+            &_button
+                width: 280px
+                height: 44px
+                font-family: 'SFPro-Light', 'Arial'
+                line-height: 16px
+                color: #ffffff
+                display: flex
+                justify-content: space-around
+                align-items: center
+                cursor: pointer
+                margin-bottom: 20px
+                &:hover span
+                    transition: 0.3s
+                    transform: scale(1.1)
+
+            &_bottom
+                font-family: 'SFPro-Light', 'Arial'
+                line-height: 13px
+                color: #C4C4C4
+                line-height: 17px
+                width: 280px
+                display: flex
+                justify-content: flex-start
+                align-items: center
+
+
+        &_right
+            flex-basis: 54%
+            font-family: 'SFPro-Light', 'Arial'
+            line-height: 19px
+            font-size: 16px
+            display: flex
+            flex-direction: column
+            align-content: stretch
+            text-align: justify
+
+            &_el
+                margin-bottom: 25px
+
+            &_first
+                a
+                    font-family: 'SFPro-Light', 'Arial'
+                    line-height: 13px
+                    font-weight: 500
+                    color: #D2001C
+                    text-decoration: underline
+
+    &__watch
+        font-family: 'SFPro-Regular', 'Arial'
+        line-height: 29px
+        font-size: 24px
+        color: #222222
+        display: flex
+        flex-direction: row
+        margin-bottom: 50px
+
+        &_text
+            width: 300px
+
+        &_line
+            flex-grow: 1
+            display: flex
+            flex-direction: column
+            align-content: stretch
+            div
+                height: 100%
+            &-active
+                border-bottom: 1px solid black
+                opacity: 0.1
+
+    &__bottom
+        display: flex
+        justify-content: space-between
+
+        &_el
+            &:hover a
+                color: #D2001C
+            &:hover span
+                border-color: #D2001C
+            a
+                font-family: 'SFPro-Regular', 'Arial'
+                line-height: 19px
+                font-size: 16px
+                color: #4D4D4D
+                span
+                    border-bottom: 1px solid #4D4D4D
+                img
+                    margin-left: 15px
+
+        &_about
+            padding-right: 30px
+

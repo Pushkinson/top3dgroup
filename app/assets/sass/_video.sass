@@ -1,0 +1,64 @@
+.video
+    background-color: #F9F9F9
+    font-family: 'OpenSans-Bold', 'Arial'
+    line-height: 18px
+    font-style: normal
+    max-width: 1440px
+    margin: 0 auto
+    padding-bottom: 63px
+
+    &__wrapper
+        width: 1160px
+        margin: 0 auto
+        overflow: hidden
+
+    &__header
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-bottom: 54px
+
+        &_text
+            h2
+                font-family: 'SFPro-Regular', 'Arial'
+                line-height: 43px
+                font-style: normal
+                font-size: 36px
+
+        &_buttons
+            display: flex
+            flex-direction: row
+            align-items: center
+            flex-wrap: nowrap
+
+            &_el
+                width: 40px
+                height: 39px
+                border: 1px solid #E5E5E5
+                border-radius: 4px
+                display: flex
+                justify-content: space-around
+                align-items: center
+                cursor: pointer
+                transition: 0.3s
+                &:hover
+                    background-color: rgba(210, 0, 28, 0.3)
+
+            &-right
+                img
+                    transform: rotate(180deg)
+
+    &__slider
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin: 0 auto
+        transition: 0.5s
+
+        &_el
+            cursor: pointer
+            transition: 0.3s
+            min-width: 549px
+            margin-right: 50px
+            &:hover
+                transform: scale(1.03)
