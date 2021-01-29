@@ -6,9 +6,10 @@
     max-width: 1440px
     margin: 0 auto
     padding-bottom: 63px
+    position: relative
 
     &__wrapper
-        width: 1160px
+        width: 1234px
         margin: 0 auto
         overflow: hidden
 
@@ -48,9 +49,15 @@
                 img
                     transform: rotate(180deg)
 
+    &__frame
+        width: 1160px
+        margin: 0 auto
+        display: flex
+        align-items: center
+        overflow: hidden
+
     &__slider
         display: flex
-        justify-content: space-between
         align-items: center
         margin: 0 auto
         transition: 0.5s
@@ -58,7 +65,9 @@
         &_el
             cursor: pointer
             transition: 0.3s
-            min-width: 549px
             margin-right: 50px
             &:hover
                 transform: scale(1.03)
+
+            img
+                width: 550px
