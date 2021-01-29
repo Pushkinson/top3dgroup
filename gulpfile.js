@@ -81,7 +81,7 @@ gulp.task('watch', function() {
     gulp.watch('./app/js/**/*.js', gulp.parallel('js'));
 });
 
-gulp.task('buildproject', gulp.parallel('build', 'img',));
+gulp.task('buildproject', gulp.parallel('build', 'img'));
 
 gulp.task('default', gulp.parallel('clean', 'browser-sync',
  'sass', 'code', 'js', 'watch'));
